@@ -1,0 +1,52 @@
+{
+  "name": "commander-sam",
+  "version": "1.0.2",
+  "description": "DIY MVC Framework inspired by SAM pattern.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base public/",
+    "test": "jest ./specs/*.js --watch",
+    "build": "webpack"
+  },
+  "keywords": [
+    "command",
+    "commander",
+    "sam",
+    "model",
+    "pattern",
+    "mvc",
+    "todo",
+    "framework",
+    "time-travel"
+  ],
+  "author": "stormcrows",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "maintainers": [
+    {
+      "name": "stormcrows",
+      "email": "stormingcrows@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stormcrows/commander-sam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stormcrows/commander-sam/issues"
+  },
+  "homepage": "https://github.com/stormcrows/commander-sam#readme"
+}
